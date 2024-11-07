@@ -45,9 +45,9 @@ class _MyHomePageState extends State<MyHomePage> {
               value: _currentValueRed,
               min: 0,
               max: 248,
-              activeColor: Colors.red,     // Колір активної частини слайдера
-              inactiveColor: Colors.black,   // Колір неактивної частини
-              thumbColor: Colors.red, // Колір повзунка
+              activeColor: Colors.red,
+              inactiveColor: Colors.black,
+              thumbColor: Colors.red,
               onChanged: (double value) {
                 setState(() {
                   _currentValueRed = value;
@@ -63,9 +63,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 value: _currentValueGreen,
                 min: 0,
                 max: 248,
-                activeColor: Colors.green,     // Колір активної частини слайдера
-                inactiveColor: Colors.black,   // Колір неактивної частини
-                thumbColor: Colors.green, // Колір повзунка
+                activeColor: Colors.green, 
+                inactiveColor: Colors.black,
+                thumbColor: Colors.green,
                 onChanged: (double value) {
                   setState(() {
                     _currentValueGreen = value;
@@ -81,9 +81,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 value: _currentValueBlue,
                 min: 0,
                 max: 248,
-                activeColor: Colors.blue,     // Колір активної частини слайдера
-                inactiveColor: Colors.black,   // Колір неактивної частини
-                thumbColor: Colors.blue, // Колір повзунка
+                activeColor: Colors.blue, 
+                inactiveColor: Colors.black,
+                thumbColor: Colors.blue, 
                 onChanged: (double value) {
                   setState(() {
                     _currentValueBlue = value;
